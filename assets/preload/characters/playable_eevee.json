@@ -1,0 +1,103 @@
+{
+	"animations": [
+		{
+			"offsets": [75, 170],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BF idle"
+		},
+		{
+			"offsets": [75, 170],
+			"loop": false,
+			"fps": 24,
+			"anim": "Blush",
+			"indices": [],
+			"name": "BF blush"
+		},
+		{
+			"loop": false,
+			"offsets": [94, 177],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [70, 170],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [72, 172],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [60, 159],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF down0",
+			"indices": []
+		},
+		{
+			"offsets": [76, 171],
+			"loop": false,
+			"fps": 24,
+			"anim": "Hey",
+			"indices": [],
+			"name": "BF hey"
+		},
+		{
+			"offsets": [94, 177],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "BF upmiss"
+		},
+		{
+			"offsets": [70, 170],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "BF leftmiss"
+		},
+		{
+			"offsets": [72, 172],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "BF rightmiss"
+		},
+		{
+			"offsets": [60, 159],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "BF downmiss"
+		}
+	],
+	"vocals_file": "Eevee",
+	"no_antialiasing": false,
+	"image": "characters/Playable_Eevee",
+	"position": [0, 400],
+	"healthicon": "eevee",
+	"flip_x": true,
+	"healthbar_colors": [246, 228, 189],
+	"camera_position": [30, -110],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": true
+}

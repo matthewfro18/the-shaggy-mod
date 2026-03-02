@@ -363,7 +363,7 @@ class PlayState extends MusicBeatState
 				bg.scrollFactor.set(0.95, 0.95);
 				bg.active = false;
 				add(bg);
-			case 'god-eater':
+			case 'god-eater' | 'god-eater-eevee':
 				defaultCamZoom = 0.65;
 				curStage = 'sky';
 
@@ -911,7 +911,7 @@ class PlayState extends MusicBeatState
 				case 'super-saiyan':
 					sEnding = 'week2 end';
 					startCountdown();
-				case 'god-eater':
+				case 'god-eater' | 'god-eater-eevee':
 					sEnding = 'finale end';
 					if (!Main.skipDes)
 					{
@@ -1021,7 +1021,7 @@ class PlayState extends MusicBeatState
 
 			switch (cs)
 			{		
-				case 'god-eater':
+				case 'god-eater' | 'god-eater-eevee':
 					godCutEnd = true;
 					godMoveGf = true;
 					godMoveSh = true;
